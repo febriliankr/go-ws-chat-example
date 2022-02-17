@@ -1,15 +1,11 @@
-# chat-example
+# Socket IO Chat Example
 
-This is the source code for a very simple chat example used for
-the [Getting Started](http://socket.io/get-started/chat/) guide
-of the Socket.IO website.
+Simple chat application, client and server
 
-Please refer to it to learn how to run this application.
+Source: http://socket.io/get-started/chat
 
-You can also spin up a free Heroku dyno to test it out:
+## Problems
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/socketio/chat-example)
-
-Or run it on [Repl.it](https://repl.it/):
-
-[![Run on Repl.it](https://repl.it/badge/github/socketio/chat-example)](https://repl.it/github/socketio/chat-example)
+- February 17, 2022
+    - Working fine with the nodejs socket io server (`node index.js`)
+    - [ ] Can't work on golang server (`go run main.go`)
