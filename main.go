@@ -27,6 +27,7 @@ func main() {
 		fmt.Println(msg)
 		s.Emit("chat message", "chat: "+msg)
 	})
+
 	server.OnEvent("/", "chat message", func(s socketio.Conn, msg string) {
 		fmt.Println(msg)
 		s.Emit("chat message", "chat: "+msg)
